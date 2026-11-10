@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data and results are never committed: download the data from the original sources (see README)
+data/
+results/
+out/
+*.pkl
+*.csv
+!analysis/gait_file_checked.csv
+*.xlsx
+*.xpt
+*.mat
+
+# Generated figures and logs
+*.png
+*.pdf
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db

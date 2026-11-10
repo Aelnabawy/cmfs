@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below and the software version you used."
+title: "CMFS: Causal Mediation Feature Selection"
+version: 0.2.0
+date-released: 2026-11-10
+license: MIT
+# Add the Zenodo DOI after the first release.
+repository-code: "https://github.com/Aelnabawy/cmfs"
+# doi: 10.5281/zenodo.XXXXXXX
+abstract: >-
+  Causal Mediation Feature Selection (CMFS) selects diagnostic biomarkers by the share of a
+  disease's effect on a functional outcome that each feature carries, within ordered causal
+  tiers, with cross-fitted discriminant indices and evidence grading of the selected features.
+keywords:
+  - causal mediation
+  - feature selection
+  - biomarker discovery
+  - stroke
+authors:
+  - family-names: El-Nabawy
+    given-names: "Ala'a"
+    orcid: "https://orcid.org/0000-0003-0099-7923"
+    affiliation: Northumbria University
+preferred-citation:
+  type: article
+  title: "CMFS: Causal Mediation Biomarker Discovery Based on Tiered Clinical Selection for Hemisphere-Specific Stroke Classification"
+  status: preprint
+  year: 2026
+  authors:
+    - family-names: El-Nabawy
+      given-names: "Ala'a"
+      orcid: "https://orcid.org/0000-0003-0099-7923"
+    - family-names: Hu
+      given-names: Shanfeng
+    - family-names: Alshabrawy
+      given-names: Ossama
+      orcid: "https://orcid.org/0000-0002-7293-8511"
+    - family-names: Gonçalves
+      given-names: Teresa
+    - family-names: Aslam
+      given-names: Nauman
