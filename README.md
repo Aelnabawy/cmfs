@@ -1,7 +1,7 @@
 # CMFS: Causal Mediation Feature Selection (v0.2.0)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-<!-- After the first Zenodo release, add the DOI badge here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24120435.svg)](https://doi.org/10.5281/zenodo.24120435)
 
 Code for *"CMFS: Causal Mediation Biomarker Discovery Based on Tiered Clinical Selection for Hemisphere-Specific Stroke Classification"*.
 Every result in the paper can be regenerated from the scripts below.
@@ -59,10 +59,10 @@ Run from inside `analysis/` (scripts load the data preparation in `prep89.py`, `
 | `robustness.py` | 5.4 | Robustness benchmark with planted decoys (Figure 5, Table S2) |
 | `ext_compare.py`, `unbiased_external.py`, `reliability2.py` | 5.5 | External validation and feature reliability (Table S4) |
 | `neighbours.py` | 5.6 | Hemisphere-specific approaches and lateralisation claims |
-| `clinical.py` | 5.7 | Accuracy at threshold, likelihood ratios, calibration, decision curves (Table S8) |
+| `clinical.py` | 5.6 | Accuracy at threshold, likelihood ratios, calibration, decision curves (Table S8) |
 | `tripod_data.py`, `tripod_model.py` | 4.1, Table S9 | Participant flow and characteristics, missing data, fairness, full model specification |
-| `../simulation/sim_study.py <scenario> 200` | 5.8 | One simulation scenario (`n16_40`, `n50_50`, `n150_150`, `weak_50`, `strongU_50`, `order_50`) |
-| `../simulation/summarise_simulation.py` | 5.8 | Simulation tables (Table S10) and Figure 8 |
+| `../simulation/sim_study.py <scenario> 200` | 5.4 | One simulation scenario (`n16_40`, `n50_50`, `n150_150`, `weak_50`, `strongU_50`, `order_50`) |
+| `../simulation/summarise_simulation.py` | 5.4 | Simulation tables (Table S10) and Figure 8 |
 
 Figures: `figures/fig_tier_method.py` (methodology), `fig_results_lr.py` (left and right results), `fig_reliability.py` (Figure 6), `fig_clinical.py` (Figure 7), `fig_explainable.py` (Figure S1), `fig_skv.py` (Figure S3).
 
@@ -89,7 +89,7 @@ If you use CMFS, please cite the article and the software version you used (see 
       version = {0.2.0},
       year    = {2026},
       url     = {https://github.com/Aelnabawy/cmfs},
-      doi     = {10.5281/zenodo.XXXXXXX}
+      doi     = {10.5281/zenodo.24120435}
     }
 
 ## Licence

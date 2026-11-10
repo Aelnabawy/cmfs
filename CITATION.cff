@@ -4,9 +4,9 @@ title: "CMFS: Causal Mediation Feature Selection"
 version: 0.2.0
 date-released: 2026-11-10
 license: MIT
-# Add the Zenodo DOI after the first release.
+# Archived on Zenodo; each release receives its own DOI.
 repository-code: "https://github.com/Aelnabawy/cmfs"
-# doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.24120435
 abstract: >-
   Causal Mediation Feature Selection (CMFS) selects diagnostic biomarkers by the share of a
   disease's effect on a functional outcome that each feature carries, within ordered causal
